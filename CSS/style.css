@@ -171,7 +171,7 @@ section#home .container a.cta_btn {
 .banner {
   height: 80vh;
   width: 100%;
-  background: url("/Images/banner.jpg") no-repeat center center/cover;
+  background: url("../Images/banner.jpg") no-repeat center center/cover;
 }
 
 #describe {
@@ -201,7 +201,7 @@ section#home .container a.cta_btn {
   height: 100vh;
   width: 700px;
   float: left;
-  background: url(/Images/wwd.jpg) no-repeat center center/cover;
+  background: url(../Images/wwd.jpg) no-repeat center center/cover;
 }
 #describe .container .image .text_sec {
   position: relative;
@@ -211,8 +211,7 @@ section#home .container a.cta_btn {
   top: 50%;
   bottom: 50%;
   right: -50%;
-  transform: translateY(150%);
-  height: 50px;
+  transform: translateY(0%);
   max-width: 550px;
 }
 @media screen and (max-width: 1024px) {
@@ -261,7 +260,7 @@ section#home .container a.cta_btn {
     height: 60vh;
     width: 60%;
     float: left;
-    background: url(/Images/wwd.jpg) no-repeat center center/cover;
+    background: url(../Images/wwd.jpg) no-repeat center center/cover;
   }
 }
 
